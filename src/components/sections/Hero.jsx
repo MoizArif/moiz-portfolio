@@ -43,7 +43,7 @@ export default function Hero() {
               GitHub
             </a>
             <a
-              href="/resume.pdf"
+              href={`${import.meta.env.BASE_URL}resume.pdf`}
               download
               className="inline-flex items-center px-6 py-3 border border-zinc-300 dark:border-zinc-700 text-zinc-600 dark:text-zinc-300 rounded-2xl hover:border-zinc-500 hover:text-zinc-900 dark:hover:text-white transition"
             >
