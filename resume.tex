@@ -1,0 +1,208 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Moiz Arif} \\ \vspace{1pt}
+    \small Accelerated Computing Architect $\cdot$ AI Infrastructure $\cdot$ GPU Systems \\ \vspace{4pt}
+    \href{mailto:moizarif2002@gmail.com}{\underline{moizarif2002@gmail.com}} \ $|$ \
+    \href{https://linkedin.com/in/moizarif2002}{\underline{linkedin.com/in/moizarif2002}} \ $|$ \
+    \href{https://github.com/moizarif}{\underline{github.com/moizarif}}
+\end{center}
+
+%-----------SUMMARY-----------
+\section{Summary}
+Accelerated computing systems engineer with deep expertise in AI infrastructure. With a Ph.D.\ in Computing and Information Sciences, I specialize in designing and optimizing GPU-centric systems for AI workloads. My work spans memory hierarchy optimization, distributed AI training, LLM inference pipelines, and CXL-based memory expansion --- bridging the gap between cutting-edge research and production infrastructure.
+
+Currently focused on GPU-centric AI infrastructure, LLM inference optimization, and memory hierarchy research for accelerated computing systems.
+
+%-----------SKILLS-----------
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{AI/ML}{: CUDA, PyTorch, TensorFlow, TensorRT, LLM Inference, RAG Systems} \\
+     \textbf{Systems}{: CXL, HBM, MPI, Distributed AI, GPU Profiling} \\
+     \textbf{Cloud/Infra}{: Kubernetes, OpenStack, AWS, Azure, GCP}
+    }}
+ \end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Micron Technology}{2023 --- Present}
+      {Principal Engineer, System Design Architect}{}
+      \resumeItemListStart
+        \resumeItem{Architected GPU-centric AI infrastructure and accelerated computing systems for LLM inference and HPC workloads.}
+        \resumeItem{Optimized AI inference workflows by analyzing KV-cache behavior, model offloading strategies, and GPU memory bottlenecks.}
+        \resumeItem{Benchmarked memory hierarchy trade-offs across HBM, DDR5, LPDDR, NVMe, and CXL expansion memory.}
+        \resumeItem{Characterized VectorDB-backed RAG pipelines on NVIDIA GPU platforms.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Rochester Institute of Technology}{2019 --- 2023}
+      {Graduate Research Assistant}{}
+      \resumeItemListStart
+        \resumeItem{Developed infrastructure-aware TensorFlow scheduling for heterogeneous datacenters improving ML performance by 54\%.}
+        \resumeItem{Designed CXL-aware intelligent memory systems for GPU-bound workloads.}
+        \resumeItem{Published research across ISCA, SC, IPDPS, and ICPP in accelerated computing and memory systems.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Rochester Institute of Technology}{Rochester, NY}
+      {Ph.D. in Computing and Information Sciences}{2019 --- 2023}
+      \resumeItemListStart
+        \resumeItem{Research focus: GPU computing, memory hierarchy optimization, distributed AI systems, and large-scale AI infrastructure.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {National University of Sciences and Technology (NUST)}{Islamabad, Pakistan}
+      {M.S. Electrical Engineering --- Telecom \& Computer Networks}{Aug 2015}
+
+    \resumeSubheading
+      {National University of Computer and Emerging Sciences (NUCES)}{Islamabad, Pakistan}
+      {B.S. Telecommunications Engineering}{Aug 2011}
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {LLM Inference Optimizer}{}
+      {CUDA, PyTorch, Python, TensorRT}{}
+      \resumeItemListStart
+        \resumeItem{A framework for analyzing and optimizing KV-cache behavior and model offloading strategies in large language model inference pipelines.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {CXL Memory Disaggregation System}{}
+      {C++, CXL, Linux Kernel, HPC}{}
+      \resumeItemListStart
+        \resumeItem{Research prototype for CXL-based memory expansion enabling GPU workloads to leverage disaggregated memory pools across datacenter nodes.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Distributed AI Training Platform}{}
+      {TensorFlow, Kubernetes, Python, MPI}{}
+      \resumeItemListStart
+        \resumeItem{Infrastructure-aware scheduling system for distributed TensorFlow training across heterogeneous GPU clusters with 54\% performance improvement.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {RAG Pipeline Benchmarking Suite}{}
+      {Python, NVIDIA GPU, VectorDB, RAG}{}
+      \resumeItemListStart
+        \resumeItem{Comprehensive benchmarking framework for evaluating VectorDB-backed Retrieval-Augmented Generation pipelines on NVIDIA GPU platforms.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PUBLICATIONS-----------
+\section{Publications}
+Research focus: GPU acceleration, distributed AI systems, heterogeneous computing, CXL memory architectures, AI infrastructure optimization, and HPC systems.
+
+\begin{itemize}[leftmargin=0.15in]
+    \item Understanding Inference Scaling for LLMs: Bottlenecks, Trade-offs, and Performance Principles --- ISCA 2026
+    \item Evaluating Expansion Memory for Optimizer State Offloading for Large Transformer Models --- IPDPS 2025
+    \item Application-Attuned Memory Management for Containerized HPC Workflows --- IPDPS 2024
+    \item Accelerating Performance of GPU-based Workloads Using CXL --- FlexScience 2023
+    \item Canary: Fault-tolerant FaaS for Stateful Time-sensitive Applications --- SC 2022
+    \item Exploiting CXL-based Memory for Distributed Deep Learning --- ICPP 2022
+\end{itemize}
+
+%-----------RESEARCH AREAS-----------
+\section{Research Areas}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+    \textbf{GPU Systems $\cdot$ AI Infrastructure $\cdot$ Memory Hierarchy $\cdot$ Distributed AI} \\
+    My research explores the intersection of hardware architecture and AI systems --- from optimizing GPU memory hierarchies and CXL-based memory expansion to building scalable infrastructure for distributed AI training and inference at scale.
+    }}
+\end{itemize}
+
+%-----------CERTIFICATIONS-----------
+\section{Certifications}
+\begin{itemize}[leftmargin=0.15in]
+    \item Mirantis Certified Administrator for OpenStack
+    \item PLUMgrid Certified OpenStack Networking Associate
+    \item AWS Solutions Architect Training
+    \item Veeam Sales Professional (VMSP)
+    \item Cisco CCNA Training
+\end{itemize}
+
+%-----------AWARDS-----------
+\section{Awards}
+\begin{itemize}[leftmargin=0.15in]
+    \item Outstanding Graduate Student Award --- RIT, 2022
+    \item HPDC Student Travel Grant --- 2023
+    \item BrickHack 8 Winner --- Best Use of Google Cloud, 2021
+    \item IEEE Member
+    \item ACM Member
+\end{itemize}
+
+\end{document}

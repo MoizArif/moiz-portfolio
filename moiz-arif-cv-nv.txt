@@ -1,0 +1,102 @@
+
+
+Moiz Arif
+ Austin, TX      moizarif2002@gmail.com    +1 (585) 955-3215      linkedin.com/in/moizarif2002   🌐 <WEBSITE>
+PROFESSIONAL SUMMARY
+AI infrastructure and accelerated computing architect with 10+ years of experience designing and optimizing GPU-centric systems for AI, HPC, and distributed workloads. Expertise in distributed AI training, LLM inference optimization, GPU memory hierarchies, and heterogeneous datacenter infrastructure across NVIDIA GPU platforms. Strong background in workload characterization, AI infrastructure observability, distributed systems, and cloud-native architectures using Kubernetes, OpenStack, and hyperscale infrastructure technologies. Published researcher in GPU acceleration, distributed AI systems, CXL memory architectures, and heterogeneous computing with publications in SC, IPDPS, ICPP, and ISCA. 
+SKILLS
+AI Infrastructure & Performance: CUDA, TensorRT, vLLM, DeepSpeed, PyTorch, TensorFlow, GPU Profiling, Nsight Systems, perf, eBPF, RAG
+GPU & Interconnect Technologies: NVIDIA GPUs, DGX, HGX, NVLink, NVSwitch, GPUDirect, PCIe, RDMA, InfiniBand, NCCL, DCGM
+Memory & Storage Systems: CXL, HBM, LP/DDR5, PMEM, NVMe, Tiered Memory, Memory Disaggregation, Memory Offloading, Ceph, GlusterFS
+Cloud & Distributed Infrastructure: Kubernetes, OpenShift, OpenStack, CloudFoundry, VMware, KVM, Slurm, Docker, AWS, Azure, GCP
+Architecture & Leadership: AI Infrastructure Design, Performance Architecture, Scalability Engineering, Fault-Tolerant Systems, Technical Leadership, Cross-Functional Collaboration
+Programming: Python, C/C++, Bash, Git, MySQL, PostgreSQL, Redis
+EXPERIENCE
+Principal Engineer, System Design Architect
+Micron Technology Inc.	July 2023 - Present, Austin, TX
+•	Architected GPU-centric AI infrastructure for LLM inference and HPC workloads across heterogeneous memory and compute environments.
+•	Optimized AI inference workflows by analyzing KV behavior, GPU memory bottlenecks, model offloading, and HBM/DDR/NVMe/CXL trade-offs.
+•	Improved GPU-bound AI workload scalability by evaluating CXL memory, disaggregated and tiered-memory allocation strategies.
+•	Characterized VectorDB for RAG and agentic AI workloads on NVIDIA GPUs using workload profiling, benchmarking, and observability tooling.
+•	Reduced system bottlenecks and improved workload observability using Linux performance tooling including perf, eBPF, and GPU telemetry.
+•	Led cross-functional engineering initiatives on AI infrastructure optimization, workload characterization, and next-generation architectures.
+
+Graduate Research Assistant
+Rochester Institute of Technology (RIT)	August 2019 - June 2023, Rochester, NY 
+•	Developed infrastructure-aware TensorFlow scheduling for heterogeneous datacenters, improving distributed DL performance by up to 54%.
+•	Designed CXL-aware intelligent memory allocation systems for GPU workloads, reducing GPU memory transfer latency by up to 65%.
+•	Improved DL throughput using schedule-aware prefetching and caching across DDR, HBM, PMEM, and CXL memory tiers.
+
+Workload Analytics Intern
+Micron Technology Inc.	January 2021 - August 2021, Austin, TX
+•	Designed representative AI, HPC, and cloud workload benchmarks for performance characterization across emerging memory architectures.
+•	Analyzed workload behavior across DDR, PMEM, and CXL systems to guide architectural decisions for next-generation computing infrastructure.
+
+Solutions Architect
+Bluestack Technology Solutions	February 2018 - August 2019, Lahore, Pakistan
+•	Designed and deployed scalable IaaS, PaaS, and SaaS environments across AWS, Azure, and GCP platforms for enterprise customers.
+•	Led migration initiatives from legacy infrastructure to cloud-native distributed systems, reducing operational overhead and improving scalability.
+
+Senior Solutions Architect
+Stonefly Inc.	February 2017 - January 2018, Islamabad, Pakistan
+•	Designed hybrid cloud disaster recovery and backup architectures for datacenter customers using virtualization and distributed storage systems. 
+
+Design Engineer
+PLUMgrid Inc.	March 2016 - January 2017, Islamabad, Pakistan
+•	Developed OpenStack-based disaster recovery and VM evacuation mechanisms for distributed cloud infrastructure environments
+
+Senior Staff Engineer
+Colossal Solutions	September 2015 - February 2016, Islamabad, Pakistan
+•	Designed and built highly-scalable Big Data applications leveraging Apache Hadoop, Spark, and Hive
+
+Senior Staff Engineer
+xFlow Research Inc.	June 2013 - September 2015, Islamabad, Pakistan
+•	Developed SR-IOV and IVSHMEM integration frameworks for OpenStack-based cloud infrastructure and virtualized networking environments.
+EDUCATION
+Ph.D. in Computing and Information Sciences
+Rochester Institute of Technology (RIT) - Rochester, NY • June 2023
+M.S. Electrical Engineering — Telecom & Computer Networks
+National University of Sciences and Technology (NUST) - Islamabad, Pakistan • August 2015
+B.S. Telecommunications Engineering
+National University of Computer and Emerging Sciences (NUCES) - Islamabad, Pakistan • August 2011
+PROJECTS
+Rack-Scale Modeling of Agentic AI Pipelines
+Technologies: Agentic AI, RAG, GPU Systems, Memory Hierarchies, Rack-Scale Modeling
+•	Developed a rack-scale agentic AI modeling framework spanning multi-agent workflows, LLMs, tools, RAG pipelines, and memory tiers.
+•	Integrated hardware validation with analytical models to characterize GPU, CPU, memory, storage, and interconnect bottlenecks.
+•	Enabled projection of next-generation rack-scale architectures to guide co-design of AI features, memory hierarchies, and hardware configurations. 
+
+Agentic AI Pipeline Design and Deployment in Data Centers
+Technologies: H100, H200, B200, GPU Profiling, Multi-Agent Systems
+•	Architected Agentic AI pipelines for data centers, covering agent design, tool integration, coordination, and orchestration. 
+•	Compared agentic, traditional LLM, and RAG pipelines across efficiency, scalability, complexity, and infrastructure needs.
+•	Integrated GPU profiling across H100, H200, and B200 platforms to optimize throughput and system-level performance across diverse AI workloads. 
+
+Reasoning Model Evaluation on NVIDIA DGX/HGX Platforms
+Technologies: Reasoning Models, KV Cache, Parallelism, TCO
+•	Evaluated reasoning models on NVIDIA platforms by analyzing reasoning token generation, inference behavior, scalability, and performance. 
+•	Assessed model and KV-cache offloading strategies, comparing total cost of ownership against scale-up and scale-out GPU deployment models. 
+•	Conducted tensor, pipeline, and data parallelism studies to characterize scaling behavior for both small language models and large language models. 
+
+Embedding Model and VectorDB Evaluation for RAG Pipelines
+Technologies: Milvus, Qdrant, VectorDB, RAG, Similarity Search
+•	Evaluation of embedding models and VectorDBs including Milvus, Qdrant for RAG pipelines in data-center environments. 
+•	Profiled retrieval efficiency under varying GPU, memory capacity, and memory bandwidth configurations. 
+•	Compared on-disk, memory-mapped, and in-memory indexing to quantify latency, throughput, and scalability trade-offs for similarity search. 
+
+CloudForms Integration with OpenStack, Ansible Tower, and OpenShift
+Technologies: CloudForms, OpenStack, Ansible Tower, OpenShift, AWS, Azure
+•	Designed and implemented a unified cloud management platform using RH CloudForms for private and public clouds through a single interface. 
+•	Integrated CloudForms with Red Hat OpenStack, Ansible Tower, OpenShift Enterprise, AWS, and Microsoft Azure with one-click application catalog.
+PUBLICATIONS
+Research focus: Distributed AI systems, heterogeneous computing, AI infrastructure optimization, HPC systems, and memory tiering.
+•	Understanding Inference Scaling for LLMs: Bottlenecks, Trade-offs, and Performance Principles - ISCA 2026
+•	Evaluating Expansion Memory for Optimizer State Offloading for Large Transformer Models - IPDPS 2025
+•	Application-Attuned Memory Management for Containerized HPC Workflows - IPDPS 2024
+•	Accelerating Performance of GPU-based Workloads Using CXL - FlexScience 2023
+•	Canary: Fault-tolerant FaaS for Stateful Time-sensitive Applications - SC 2022
+•	Exploiting CXL-based Memory for Distributed Deep Learning - ICPP 2022
+•	Infrastructure-Aware TensorFlow for Heterogeneous Datacenters - MASCOTS 2020
+PROFESSIONAL SERVICE
+•	Committee Member: IPDPS 2025/26, NVMW (HPCA/PPoPP 2025), HiPC 2025, RexIO 2025, SC25, PDSW (SC25)
+•	Journal Reviewer: TPDS, Transactions on Storage, Transactions on Computers

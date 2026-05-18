@@ -1,0 +1,237 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \
+      \textit{\small#3} & \textit{\small #4} \
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Moiz Arif} \ \vspace{1pt}
+    Austin, TX \ $|$ \ 
+    \href{mailto:marifa@micron.com}{\underline{marifa@micron.com}} \ $|$ \ 
+    +1-585-955-3215 \ $|$ \ 
+    \href{https://linkedin.com/in/moizarif2002}{\underline{linkedin.com/in/moizarif2002}}
+\end{center}
+
+%-----------SUMMARY-----------
+\section{Summary}
+AI infrastructure and performance architect with 10+ years of experience optimizing GPU-accelerated AI/HPC workloads, distributed systems, and heterogeneous datacenter infrastructure. Expertise in CUDA, TensorRT, CXL, HBM, Kubernetes, distributed deep learning, workload profiling, and memory hierarchy optimization across NVIDIA GPU platforms. Experienced in AI inference optimization, distributed training systems, GPU memory offloading, cloud-native infrastructure, and large-scale datacenter architectures spanning AI, HPC, and enterprise cloud environments.
+
+Strong background in workload characterization, GPU performance analysis, heterogeneous computing, AI infrastructure observability, and scalable distributed systems using NVIDIA GPUs, Kubernetes, OpenStack, and hyperscale cloud technologies. Published researcher in GPU acceleration, distributed AI systems, CXL memory architectures, and heterogeneous computing with publications in SC, IPDPS, ICPP, and MASCOTS.
+
+%-----------SKILLS-----------
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{AI Infrastructure \& Performance}{: CUDA, TensorRT, vLLM, Megatron-DeepSpeed, PyTorch Distributed, TensorFlow, Triton Inference Server, RAG Pipelines, Agentic AI, Distributed Deep Learning, GPU Performance Optimization, Nsight Systems, Nsight Compute, perf, eBPF, VTune} \
+
+     \textbf{GPU \& Interconnect Technologies}{: NVIDIA GPUs, DGX, HGX, NVLink, NVSwitch, GPUDirect, PCIe, RDMA, InfiniBand, RoCE, NCCL, DCGM} \
+
+     \textbf{Memory \& Storage Systems}{: CXL, HBM, DDR/LPDDR, PMEM, NVMe, SSDs, Tiered Memory Architectures, Memory Disaggregation, GPU Memory Offloading, Ceph, GlusterFS, RAID} \
+
+     \textbf{Cloud \& Distributed Infrastructure}{: Kubernetes, OpenShift, OpenStack, CloudFoundry, VMware, KVM, QEMU, Hyper-V, Slurm, Docker, AWS, Azure, GCP, Infrastructure Automation, High Availability, Disaster Recovery} \
+
+     \textbf{Programming}{: Python, C/C++, Bash, Git, Jira, MySQL, PostgreSQL, Redis} \
+
+     \textbf{Architecture \& Leadership}{: Datacenter Architecture, AI Infrastructure Design, Performance Architecture, Scalability Engineering, Fault-Tolerant Systems, Technical Leadership, Customer-Facing Solution Design}
+    }}
+ \end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Micron Technology}{Jul 2023 -- Present}
+      {Senior Systems Performance Engineer}{Austin, TX}
+      \resumeItemListStart
+        \resumeItem{Improved AI inference and RAG pipeline efficiency across heterogeneous GPU systems by profiling NVIDIA GPU workloads using CUDA, TensorRT, Nsight Systems, and Nsight Compute, reducing inference bottlenecks and improving memory utilization.}
+
+        \resumeItem{Increased workload scalability and memory efficiency for LLM training and inference pipelines by evaluating CXL-based memory expansion, KV-cache offloading, HBM/DDR tiering, and GPU memory disaggregation strategies.}
+
+        \resumeItem{Accelerated reasoning and non-reasoning model performance characterization by conducting system-level benchmarking and workload analytics across NVIDIA GPU platforms, enabling data-driven infrastructure optimization.}
+
+        \resumeItem{Reduced memory transfer overhead and latency for GPU-bound workloads by optimizing data movement across PCIe, NVLink, NVMe, DDR, HBM, and CXL memory hierarchies.}
+
+        \resumeItem{Improved AI infrastructure observability and workload profiling accuracy by leveraging Linux performance tooling including perf, eBPF, GPU telemetry, and distributed systems monitoring techniques.}
+
+        \resumeItem{Enhanced distributed AI workload orchestration and scalability by evaluating VectorDB technologies including Milvus and Qdrant for GPU-accelerated RAG pipelines and agentic AI systems.}
+
+        \resumeItem{Led cross-functional engineering initiatives focused on AI systems optimization, workload characterization, and datacenter performance analysis for emerging AI and HPC workloads.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Rochester Institute of Technology}{Aug 2019 -- Jun 2023}
+      {Graduate Research Assistant}{Rochester, NY}
+      \resumeItemListStart
+        \resumeItem{Improved distributed deep learning performance by up to 54\% by developing infrastructure-aware TensorFlow scheduling mechanisms optimized for heterogeneous datacenter architectures and GPU-accelerated systems.}
+
+        \resumeItem{Reduced GPU memory transfer latency by up to 65\% by designing a schedule-aware tiered-memory allocation framework leveraging CXL expansion memory for NVIDIA DGX A100 GPU systems.}
+
+        \resumeItem{Increased deep learning throughput by up to 34\% by implementing intelligent prefetching and caching mechanisms across heterogeneous memory tiers including DDR, HBM, PMEM, and CXL-attached memory.}
+
+        \resumeItem{Reduced execution latency for stateful serverless applications by up to 87\% by designing application-aware memory management policies for distributed FaaS platforms.}
+
+        \resumeItem{Improved resiliency of time-sensitive distributed workloads by up to 83\% by architecting a fault-tolerant FaaS framework for large-scale cloud and HPC environments.}
+
+        \resumeItem{Published peer-reviewed research in SC, IPDPS, ICPP, and MASCOTS focused on GPU acceleration, distributed AI systems, heterogeneous computing, workload optimization, and CXL memory architectures.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Micron Technology}{Jan 2021 -- Aug 2021}
+      {Workload Analytics Intern}{Austin, TX}
+      \resumeItemListStart
+        \resumeItem{Improved workload-to-memory configuration alignment by designing representative AI, HPC, and cloud workload benchmarks for performance characterization across emerging memory architectures.}
+
+        \resumeItem{Accelerated architectural decision-making by analyzing workload behavior across DDR, PMEM, and CXL-enabled systems on Intel and AMD processor platforms.}
+
+        \resumeItem{Proposed optimized reference architectures for compute, memory, storage, and AI infrastructure workloads, improving workload scalability and infrastructure efficiency.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Bluestack Technology Solutions}{Feb 2018 -- Aug 2019}
+      {Solutions Architect}{Lahore, Pakistan}
+      \resumeItemListStart
+        \resumeItem{Improved infrastructure scalability and operational efficiency for enterprise customers by designing and deploying highly available IaaS, PaaS, and SaaS environments across AWS, Azure, and GCP platforms.}
+
+        \resumeItem{Reduced customer operational overhead by up to 60\% by leading migration initiatives from legacy on-prem environments to cloud-native and containerized infrastructure.}
+
+        \resumeItem{Accelerated customer adoption of Kubernetes, OpenStack, VMware, and OpenShift-based solutions for high-availability enterprise workloads.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {StoneFly}{Feb 2017 -- Jan 2018}
+      {Senior Solutions Architect}{Islamabad, Pakistan}
+      \resumeItemListStart
+        \resumeItem{Reduced disaster recovery recovery-time objectives (RTOs) by up to 90\% by designing hybrid cloud and on-premises backup and disaster recovery architectures for enterprise datacenter customers.}
+
+        \resumeItem{Improved storage reliability and infrastructure resiliency by deploying RAID, SDS, NVMe, backup, and replication solutions for mission-critical workloads.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {PLUMgrid}{Mar 2016 -- Jan 2017}
+      {Design Engineer}{Islamabad, Pakistan}
+      \resumeItemListStart
+        \resumeItem{Improved virtual machine availability and resiliency by developing OpenStack-based disaster recovery and VM evacuation mechanisms for distributed cloud infrastructure.}
+
+        \resumeItem{Increased operational visibility and infrastructure reliability by implementing monitoring, telemetry, and alerting systems for cloud-native and virtualized datacenter environments.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {xFlow Research}{Jun 2013 -- Sep 2015}
+      {Senior Staff Engineer}{Islamabad, Pakistan}
+      \resumeItemListStart
+        \resumeItem{Improved virtualization performance and network efficiency by developing SR-IOV and IVSHMEM integration frameworks for OpenStack-based cloud infrastructure.}
+
+        \resumeItem{Accelerated enterprise cloud deployments by designing and deploying large-scale OpenStack datacenter environments for telecom and enterprise workloads.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Rochester Institute of Technology}{Rochester, NY}
+      {Ph.D. Computing and Information Sciences}{Jun 2023}
+
+    \resumeSubheading
+      {National University of Sciences and Technology (NUST)}{Islamabad, Pakistan}
+      {M.S. Electrical Engineering -- Telecom \& Computer Networks}{Aug 2015}
+
+    \resumeSubheading
+      {National University of Computer and Emerging Sciences (NUCES)}{Islamabad, Pakistan}
+      {B.S. Telecommunications Engineering}{Aug 2011}
+
+  \resumeSubHeadingListEnd
+
+%-----------PUBLICATIONS-----------
+\section{Publications}
+Research focus: GPU acceleration, distributed AI systems, heterogeneous computing, CXL memory architectures, AI infrastructure optimization, workload scheduling, and HPC systems.
+
+\begin{itemize}[leftmargin=0.15in]
+    \item Evaluating Expansion Memory for Optimizer State Offloading for Large Transformer Models --- IPDPS 2025
+    \item Application-Attuned Memory Management for Containerized HPC Workflows --- IPDPS 2024
+    \item Accelerating Performance of GPU-based Workloads Using CXL --- FlexScience 2023
+    \item Canary: Fault-tolerant FaaS for Stateful Time-sensitive Applications --- SC 2022
+    \item Exploiting CXL-based Memory for Distributed Deep Learning --- ICPP 2022
+    \item Infrastructure-Aware TensorFlow for Heterogeneous Datacenters --- MASCOTS 2020
+\end{itemize}
+
+%-----------CERTIFICATIONS-----------
+\section{Certifications}
+\begin{itemize}[leftmargin=0.15in]
+    \item Mirantis Certified Administrator for OpenStack
+    \item PLUMgrid Certified OpenStack Networking Associate
+    \item AWS Solutions Architect Training
+    \item Veeam Sales Professional (VMSP)
+    \item Cisco CCNA Training
+\end{itemize}
+
+%-----------AWARDS-----------
+\section{Awards}
+\begin{itemize}[leftmargin=0.15in]
+    \item Outstanding Graduate Student Award --- RIT, 2022
+    \item HPDC Student Travel Grant --- 2023
+    \item BrickHack 8 Winner --- Best Use of Google Cloud, 2021
+    \item IEEE Member
+    \item ACM Member
+\end{itemize}
+
+\end{document}
+
