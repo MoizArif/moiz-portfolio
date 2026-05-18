@@ -13,8 +13,8 @@ export default function About() {
         With a Ph.D. in Computing and Information Sciences and 10+ years of
         experience, I specialize in distributed AI training, LLM inference
         optimization, GPU memory hierarchies, and heterogeneous datacenter
-        infrastructure across NVIDIA GPU platforms. My work spans workload
-        characterization, AI infrastructure observability, distributed systems,
+        infrastructure across GPU platforms. My work spans workload
+        characterization, performance optimization, AI infrastructure observability, distributed systems,
         and cloud-native architectures using Kubernetes, OpenStack, and
         hyperscale infrastructure technologies. Published researcher in GPU
         acceleration, distributed AI systems, CXL memory architectures, and

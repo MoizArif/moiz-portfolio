@@ -32,6 +32,7 @@ export const experience = [
     points: [
       "Designed representative AI, HPC, and cloud workload benchmarks for performance characterization across emerging memory architectures.",
       "Analyzed workload behavior across DDR, PMEM, and CXL systems to guide architectural decisions for next-generation computing infrastructure.",
+      "Evaluated CXL architectures and use cases across compute, memory, I/O, AI, and HPC workloads on Intel and AMD platforms.",
     ],
   },
   {
@@ -42,6 +43,7 @@ export const experience = [
     points: [
       "Designed and deployed scalable IaaS, PaaS, and SaaS environments across AWS, Azure, and GCP platforms for enterprise customers.",
       "Led migration initiatives from legacy infrastructure to cloud-native distributed systems, reducing operational overhead and improving scalability.",
+      "Mentored DevOps and cloud engineers on AWS solution design, driving improved team performance and knowledge sharing.",
     ],
   },
   {
@@ -51,6 +53,8 @@ export const experience = [
     period: "February 2017 — January 2018",
     points: [
       "Designed hybrid cloud disaster recovery and backup architectures for datacenter customers using virtualization and distributed storage systems.",
+      "Built and validated SDS-based storage and backup solutions (StoneFly, Veeam, Acronis), driving cross-team collaboration and feature PoCs.",
+      "Led design and deployment of disaster recovery solutions (on-prem and cloud), reducing RTO by up to 90% for critical systems.",
     ],
   },
   {
@@ -60,6 +64,8 @@ export const experience = [
     period: "March 2016 — January 2017",
     points: [
       "Developed OpenStack-based disaster recovery and VM evacuation mechanisms for distributed cloud infrastructure environments.",
+      "Deployed and integrated cloud platforms and SDS stacks (Ceph, OpenStack) across multi-hypervisor environments.",
+      "Developed monitoring and alerting systems for proactive fault detection and performance optimization in cloud deployments.",
     ],
   },
   {
@@ -78,6 +84,8 @@ export const experience = [
     period: "June 2013 — September 2015",
     points: [
       "Developed SR-IOV and IVSHMEM integration frameworks for OpenStack-based cloud infrastructure and virtualized networking environments.",
+      "Developed OpenStack extensions based on Nova and Horizon to provide custom network devices during VM creation on the OpenStack dashboard.",
+      "Designed and deployed large-scale OpenStack cloud computing environments in customer data centers and provided support and cloud training.",
     ],
   },
 ];

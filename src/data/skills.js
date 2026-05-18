@@ -1,14 +1,15 @@
 export const skills = {
   "AI Infrastructure & Performance": [
     "CUDA", "TensorRT", "vLLM", "DeepSpeed", "PyTorch", "TensorFlow",
-    "GPU Profiling", "Nsight Systems", "perf", "eBPF", "RAG",
+    "GPU Profiling", "Nsight Systems", "perf", "eBPF", "RAG", "Reasoning Models", "Agentic AI",
+    "Nvidia Cosmos"
   ],
   "GPU & Interconnect Technologies": [
     "NVIDIA GPUs", "DGX", "HGX", "NVLink", "NVSwitch", "GPUDirect",
-    "PCIe", "RDMA", "InfiniBand", "NCCL", "DCGM",
+    "PCIe", "RDMA", "InfiniBand", "NCCL", "DCGM", "Nvidia-SMI"
   ],
   "Memory & Storage Systems": [
-    "CXL", "HBM", "LP/DDR5", "PMEM", "NVMe", "Tiered Memory",
+    "CXL", "HBM", "LPDDRX", "RDIMM/MRDIMM", "PMEM", "NVMe", "Tiered Memory",
     "Memory Disaggregation", "Memory Offloading", "Ceph", "GlusterFS",
   ],
   "Cloud & Distributed Infrastructure": [
@@ -16,10 +17,10 @@ export const skills = {
     "KVM", "Slurm", "Docker", "AWS", "Azure", "GCP",
   ],
   "Architecture & Leadership": [
-    "AI Infrastructure Design", "Performance Architecture", "Scalability Engineering",
+    "AI Infrastructure Design", "Performance Architecture", "Workload Analysis", "Scalability Engineering",
     "Fault-Tolerant Systems", "Technical Leadership", "Cross-Functional Collaboration",
   ],
   "Programming": [
-    "Python", "C/C++", "Bash", "Git", "MySQL", "PostgreSQL", "Redis",
+    "Python", "C/C++", "Bash", "Git", "MySQL", "PostgreSQL", "Redis", "Milvus",
   ],
 };
